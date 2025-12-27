@@ -1,13 +1,14 @@
 FROM php:8.2-apache
 
-# Install system deps
+# System dependencies
 RUN apt-get update && apt-get install -y \
     libzip-dev \
-    unzip \
     zip \
+    unzip \
+    && docker-php-ext-configure zip \
     && docker-php-ext-install zip pdo pdo_mysql
 
-# Apache fix (MPM)
+# Apache config (FIX multiple MPM)
 RUN a2dismod mpm_event mpm_worker || true \
     && a2enmod mpm_prefork rewrite
 
@@ -17,12 +18,11 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 WORKDIR /var/www/html
 COPY . .
 
-# Permission Laravel
+# Laravel permission
 RUN chown -R www-data:www-data storage bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache
 
-# Install PHP deps
+# Composer install (ZIP SUDAH ADA DI SINI)
 RUN composer install --no-dev --optimize-autoloader
 
 EXPOSE 80
-
