@@ -40,7 +40,7 @@ class ItemController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'kode_barang' => 'required|unique:master_asets,kode_barang',
+            'kode_barang' => 'required|unique:items,kode_barang',
             'nup' => 'required',
             'nama' => 'required',
             'merek' => 'required|string|max:100',
