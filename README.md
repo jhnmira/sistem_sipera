@@ -1,4 +1,4 @@
-<img width="914" height="436" alt="1 halaman utama" src="https://github.com/user-attachments/assets/35fa5c67-9576-4d9a-9022-b7ecddbe9d1c" /># SIPERA - Sistem Pencatatan Peralatan Elektronik
+SIPERA - Sistem Pencatatan Peralatan Elektronik
 
 Sistem pencatatan dan monitoring peralatan elektronik untuk keperluan maintenance kantor. Dikembangkan selama program magang di BPS Kota Yogyakarta (semester 7).
 
@@ -45,7 +45,7 @@ Laravel 11, PHP 8.2, MySQL, Tailwind CSS 3, Vite, Laravel Excel (Maatwebsite), C
 Catatan: ekstensi PHP `gd` dan `zip` harus aktif (dibutuhkan fitur Excel).
 
 ## Tampilan
-
+<img width="914" height="436" alt="1 halaman utama" src="https://github.com/user-attachments/assets/35fa5c67-9576-4d9a-9022-b7ecddbe9d1c" />
 <img width="914" height="436" alt="1 halaman utama" src="https://github.com/user-attachments/assets/876be000-6408-45e1-9e40-040a42cecce8" />
 <img width="956" height="434" alt="2 halaman login" src="https://github.com/user-attachments/assets/4502e90d-9e9f-49ce-83e7-c06d2ad8f749" />
 <img width="956" height="438" alt="5 form tambah barang" src="https://github.com/user-attachments/assets/3f76a15b-9607-4fa9-a95f-837264757f41" />
