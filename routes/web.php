@@ -32,9 +32,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     // ================= ITEMS / ASET =================
-    Route::resource('items', ItemController::class);
     Route::get('items/export', [ItemController::class, 'export'])->name('items.export');
     Route::post('items/import', [ItemController::class, 'import'])->name('items.import');
+    Route::resource('items', ItemController::class);
 
     // ================= MAINTENANCE =================
     Route::get('/items/{item}/maintenance', [MaintenanceRecordController::class, 'index'])
