@@ -1,4 +1,4 @@
-# SIPERA - Sistem Pencatatan Peralatan Elektronik
+<img width="914" height="436" alt="1 halaman utama" src="https://github.com/user-attachments/assets/35fa5c67-9576-4d9a-9022-b7ecddbe9d1c" /># SIPERA - Sistem Pencatatan Peralatan Elektronik
 
 Sistem pencatatan dan monitoring peralatan elektronik untuk keperluan maintenance kantor. Dikembangkan selama program magang di BPS Kota Yogyakarta (semester 7).
 
@@ -46,4 +46,8 @@ Catatan: ekstensi PHP `gd` dan `zip` harus aktif (dibutuhkan fitur Excel).
 
 ## Tampilan
 
-_Tambahkan screenshot halaman login, dashboard, daftar aset, dan riwayat perawatan di sini._
+<img width="914" height="436" alt="1 halaman utama" src="https://github.com/user-attachments/assets/876be000-6408-45e1-9e40-040a42cecce8" />
+<img width="956" height="434" alt="2 halaman login" src="https://github.com/user-attachments/assets/4502e90d-9e9f-49ce-83e7-c06d2ad8f749" />
+<img width="956" height="438" alt="5 form tambah barang" src="https://github.com/user-attachments/assets/3f76a15b-9607-4fa9-a95f-837264757f41" />
+<img width="949" height="437" alt="6 halaman tambah riwayat perawatan per alat elektronik" src="https://github.com/user-attachments/assets/db498de1-65a1-4fab-b34e-c89c03863336" />
+
